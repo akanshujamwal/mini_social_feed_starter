@@ -1,30 +1,4 @@
-// import 'package:flutter/material.dart';
-// import 'package:hive_flutter/hive_flutter.dart';
-// import 'core/router/app_router.dart';
-// import 'core/theme/app_theme.dart';
 
-// Future<void> main() async {
-//   WidgetsFlutterBinding.ensureInitialized();
-//   await Hive.initFlutter();
-//   // TODO: register Hive adapters if/when needed.
-//   runApp(const MiniSocialApp());
-// }
-
-// class MiniSocialApp extends StatelessWidget {
-//   const MiniSocialApp({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     final router = AppRouter.router;
-//     return MaterialApp.router(
-//       title: 'Mini Social Feed',
-//       theme: AppTheme.light,
-//       darkTheme: AppTheme.dark,
-//       themeMode: ThemeMode.system,
-//       routerConfig: router,
-//     );
-//   }
-// }
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/hive_flutter.dart';
