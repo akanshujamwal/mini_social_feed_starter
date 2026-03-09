@@ -50,7 +50,7 @@ This project follows Clean Architecture with BLoC — but in plain words:
 ### Key Features
 
 + Infinite scrolling feed (loads more posts when you hit the bottom).
-+ Photos (from Picsum) and 🎥 videos (sample MP4s).
++ Photos (from Picsum) and videos (sample MP4s).
 + Likes toggle instantly, even offline (Hive cache).
 + Comments open in a bottom sheet (mocked data).
 + Profile page when you tap avatar/username (shows user info + their posts).
